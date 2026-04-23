@@ -1,0 +1,156 @@
+import json
+
+
+def findfood():
+    """
+    calls a function that requires user input. no input to actual function.
+    user inputs rough food item, gets given available options and then chooses
+    an available item
+    function returns the description of the item from FOoddata.
+    """
+
+
+    with open('Fooddata.json', 'r') as file:
+        fooddata = json.load(file)
+    #open dictionary in file
+    foods = fooddata["FoundationFoods"]
+
+    #request rough item
+
+    options = []
+
+    #search file for all descriptions that contain rough item, put into a list
+    while len(options) == 0:
+        search_term = input("what food are you searching for: ").lower()
+        for food in foods:
+            if search_term in food["description"].lower():
+                options.append(food["description"])
+        for i in options:
+            print(i)
+        if len(options) == 0:
+            print('no items found, please try again')
+
+    #get user to choose the exact description of the item
+    while True:
+        Act_item = input("Select one of the above: ")
+        if Act_item in options:
+            break
+        else:
+            print("Please select a listed item")
+            for i in options:
+                print(i)
+
+    #when function can change to return exact description
+    return(Act_item)
+
+
+
+#check if json allready gives nutriens in per 100 grams
+def asign_macros(input):
+    """
+    function that inputs a description of a food
+    then gets all nutrient information
+    and returns macros per 100 grams as a dictionary
+    """
+    result = {}
+
+    with open('Fooddata.json', 'r') as file:
+            fooddata = json.load(file)
+    foods = fooddata["FoundationFoods"]
+    #withdraw all macros and store in a dictionary
+    for food in foods:
+        if food["description"] == input:
+
+            for nutrient in food["foodNutrients"]:
+                name = nutrient["nutrient"]["name"]
+                amount = nutrient.get("amount", 0)
+                unit = nutrient["nutrient"]["unitName"]
+
+                if name == "Protein":
+                    result["protein"] = amount
+                elif name == "Total lipid (fat)":
+                    result["fat"] = amount
+                elif name == "Carbohydrate, by difference":
+                    result["carbs"] = amount
+                elif name == "Fiber, total dietary":
+                    result["fiber"] = amount
+                elif name == "Sodium, Na":
+                    result["sodium"] = amount
+                elif name == "Energy" and unit == "kcal":
+                    result["energy"] = amount
+
+            #work out hpow much weight is associated to a serving
+            for amount in food["foodPortions"]:
+                quant = amount["gramWeight"]
+
+
+    macro_values = ['protein','fat','carbs','fiber','sodium','energy']
+
+    #calculate amount per 100 grams
+    final_value = {}
+    def calc(amount,quant):
+        normalised = (100*amount)/quant
+        return (normalised)
+    for item in result:
+        final = calc(result[item],quant)
+        final_value[item] = final
+    if len(final_value) < 6:
+        for item in macro_values:
+            try:
+                final_value[item]
+            except KeyError:
+                final_value[item] = 0
+
+
+    return(final_value)
+
+
+def start_day():
+    """function that builds a global dictionary of daily values and or resets to 0"""
+    macro_values = ['protein','fat','carbs','fiber','sodium','energy']
+    #check if first day or you're resettinga day
+    try:
+        Daily_Macros['protein']
+    except UnboundLocalError:
+        Daily_Macros = {}
+    #asign all macros to 0
+    for items in macro_values:
+           Daily_Macros[items] = 0
+
+
+    return(Daily_Macros)
+
+def add_item(item,quant,Daily_Macros):
+    """function that adds up input macros to a global variable containing dailyn macros
+    input is which item (the description) you are inputting and how much of that item(amount of 100 grams)
+    that you are eating, also inputs current daily macros
+    """
+    macro_values = ['protein','fat','carbs','fiber','sodium','energy']
+    macros = asign_macros(item)
+    for item in macro_values:
+        Daily_Macros[item] += quant*macros[item]
+
+    return(Daily_Macros)
+
+
+
+def main():
+    Daily_Macros = start_day()
+    print(Daily_Macros)
+    test = findfood()
+    test2 = asign_macros(test)
+    test4 = findfood()
+    test5 = asign_macros(test4)
+    Daily_macros = add_item(test,3,Daily_Macros)
+    print(Daily_Macros)
+    Daily_Macros = add_item(test5,6,Daily_Macros)
+    print(Daily_Macros)
+
+
+
+
+
+
+
+if __name__ == '__main__':
+    main()
