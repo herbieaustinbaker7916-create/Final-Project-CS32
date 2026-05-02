@@ -1,0 +1,26 @@
+[
+ {
+  "day": "firstexampleday",
+  "macros": {
+   "protein": 0,
+   "fat": 0,
+   "carbs": 0,
+   "fiber": 0,
+   "sodium": 0,
+   "energy": 0
+  },
+  "weight": 0
+ },
+ {
+  "day": "secondexampleday",
+  "macros": {
+   "protein": 0,
+   "fat": 0,
+   "carbs": 0,
+   "fiber": 0,
+   "sodium": 0,
+   "energy": 0
+  },
+  "weight": 0
+ }
+]
