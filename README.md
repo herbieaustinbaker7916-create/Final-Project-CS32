@@ -1,5 +1,6 @@
 # Final-Project-CS32
-Weight progression and Nutrition
+Weight progression and Nutrition.
+
 This code acts as a user interface and data storage. When run it gather neccasary data on you weight and base metabolic rate.
 It will then open a user interface where you can submit food items, workouts, or check your progress
 The code simulates an app that constantly runs meaning it is designed to be permanently left running
