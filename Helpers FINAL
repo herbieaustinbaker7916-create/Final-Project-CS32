@@ -1,0 +1,248 @@
+import json
+Daily_Macros = {}
+macro_values = ['protein','fat','carbs','fiber','sodium','energy']
+bodyweight = 0
+day = 1
+def find_food():
+    """
+    calls a function that requires user input. no input to actual function.
+    user inputs rough food item, gets given available options and then chooses
+    an available item
+    function returns the description of the item from FOoddata.
+    """
+
+
+    with open('Fooddata.json', 'r') as file:
+        fooddata = json.load(file)
+    #open dictionary in file
+    foods = fooddata["FoundationFoods"]
+
+    options = []
+
+    #requests a general item
+    while len(options) == 0:
+        search_term = input("what food are you searching for: ").lower()
+        #gets a list of options
+        for food in foods:
+            if search_term in food["description"].lower():
+                options.append(food["description"])
+        if len(options) == 0:
+            print('no items found, please try again')
+        else:
+            for i, entry in enumerate(options, start=1):
+                print(f"{i}.{entry}")
+
+
+
+    #get user to choose the exact description of the item, formated as a list that they select a number from
+    while True:
+        choice = input("Select a number from the list above: ")
+        if choice.isdigit() and 1 <= int(choice) <= len(options):
+            Act_item =  options[int(choice) - 1]
+            break
+        else:
+            print(f"Please enter a number between 1 and {len(options)}")
+            for i, entry in enumerate(options, start=1):
+                print(f"{i}.{entry}")
+
+
+    return(Act_item)
+
+def asign_macros(food_desc):
+    """
+    function that inputs a description of a food
+    then gets all nutrient information
+    and returns macros per 100 grams as a dictionary
+    """
+    global macro_values
+    result = {}
+
+    with open('Fooddata.json', 'r') as file:
+            fooddata = json.load(file)
+    foods = fooddata["FoundationFoods"]
+    #withdraw all macros and store in a dictionary
+    for food in foods:
+        if food["description"] == food_desc:
+
+            for nutrient in food["foodNutrients"]:
+                name = nutrient["nutrient"]["name"]
+                amount = nutrient.get("amount", 0)
+                unit = nutrient["nutrient"]["unitName"]
+
+                if name == "Protein":
+                    result["protein"] = amount
+                elif name == "Total lipid (fat)":
+                    result["fat"] = amount
+                elif name == "Carbohydrate, by difference":
+                    result["carbs"] = amount
+                elif name == "Fiber, total dietary":
+                    result["fiber"] = amount
+                elif name == "Sodium, Na":
+                    result["sodium"] = amount
+                elif name == "Energy" and unit == "kcal":
+                    result["energy"] = amount
+
+    #give value of 0 to undefined macros
+    if len(result) < 6:
+        for item in macro_values:
+            try:
+                result[item]
+            except KeyError:
+                result[item] = 0
+
+
+    return(result)
+
+
+def start_day():
+    """function that builds a global dictionary of daily values and or resets to 0
+    also gets a users start of day weight
+    """
+    global Daily_Macros
+    global macro_values
+    global bodyweight
+    global day
+
+    print("Starting a new day")
+
+    #get users start of day weight
+    weight_units = ["pounds","kilograms"]
+    while True:
+        weight_unit = input("What unit are you going to input your weight as, Pounds or Kilograms? ")
+        if weight_unit.lower() in weight_units:
+            break
+        else:
+            print("Please enter either pounds or kilograms")
+    while True:
+        weight = input("Please enter your weight to the nearest integer: ")
+        if weight.isdigit():
+            weight = int(weight)
+            break
+        else:
+            print("Please enter an integer ")
+    if weight_unit == "pounds":
+        bodyweight = weight/2.205
+    else:
+        bodyweight = weight
+
+
+    Daily_Macros.clear
+    for items in macro_values:
+        Daily_Macros[items] = 0
+
+
+    return()
+
+def add_item(food_desc,quant):
+    """function that adds up input macros to a global variable containing dailyn macros
+    input is which food description you are inputting and how much of that item(amount of 100 grams)
+    that you are eating
+    """
+    global Daily_Macros
+    global macro_values
+    macros = asign_macros(food_desc)
+    for item in macro_values:
+        Daily_Macros[item] += quant*macros[item]
+
+    return()
+
+def find_work():
+    """
+    function that takes user input to find an exercise,
+    then returns the description of the exercise
+    """
+    with open('METvalues.json', 'r') as file:
+        metvalues = json.load(file)
+    options = []
+    #asks for general exercise
+    while len(options) == 0:
+        search_term = input("What exercise did you do? ").lower()
+        for diction in metvalues:
+            if search_term in diction["Description"].lower():
+                options.append(diction["Description"])
+        if len(options) == 0:
+            print('No items found, please try again')
+        else:
+            for i, entry in enumerate(options, start=1):
+                print(f"{i}.{entry}")
+
+    #user selects exact workout description that includes intensity--giving a findable MET value
+    while True:
+        choice = input("Select a number from the list above: ")
+        if choice.isdigit() and 1 <= int(choice) <= len(options):
+            Act_item =  options[int(choice) - 1]
+            break
+        else:
+            print(f"Please enter a number between 1 and {len(options)}")
+            for i, entry in enumerate(options, start=1):
+                print(f"{i}.{entry}")
+
+    return(Act_item)
+
+
+def work_calor(work_desc):
+    """
+    inputs an exercise description and user input time,
+    returns the calories burned in the workout
+    """
+    with open('METvalues.json', 'r') as file:
+        metvalues = json.load(file)
+    #gets time of exercise
+    while True:
+        time = input("How long did you exercise for in minutes? ")
+        if time.isdigit():
+            break
+        else:
+            print("please input an integer number of minutes")
+    #gets MET value
+    for diction in metvalues:
+        if work_desc.lower() == diction["Description"].lower():
+            met = float(diction["MET"])
+
+    #calculates calories from MET, bodyweight, and time
+    calories = met*int(time)*bodyweight/60
+
+
+    return(calories)
+
+def add_workout(calories):
+    """
+    Input is a workouts calories,
+    subtracts the calories of the workout from daily macros
+    """
+    global Daily_Macros
+    Daily_Macros["energy"] += -calories
+
+    return()
+
+def end_day(bas_met_rat):
+    global day
+    global Daily_Macros
+    global bodyweight
+    add_workout(bas_met_rat)
+
+    with open('daily_data.json', 'r') as file:
+        dailydata = json.load(file)
+    #defines useful daily data as a dictionary
+    today = {
+        "day":f"day{day}",
+        "macros":Daily_Macros,
+        "weight":bodyweight
+    }
+    #updates dailydata jason file with the day
+    dailydata.append(today)
+
+    with open('daily_data.json', 'w') as f:
+        json.dump(dailydata,f,indent = 1)
+
+    #moves on to the next day
+    day += 1
+    bodyweight = 0
+
+    return()
+
+
+def main():
+
+if __name__ == '__main__':
+    main()
