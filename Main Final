@@ -1,0 +1,110 @@
+import json
+import datetime
+import time
+import threading
+import helpers
+bas_met_rat = 0
+
+
+#defines a function that will check when a new day begins in real world time and will end the day and start a new day at this time
+def check_time_forever():
+    target_time = "00:00"
+    while True:
+        now = datetime.datetime.now().strftime("%H:%M")
+        if now == target_time:
+            helpers.end_day(bas_met_rat)
+            helpers.start_day()
+            time.sleep(61)  # Avoid double-triggering in the same second
+        time.sleep(30)
+
+def main():
+    helpers.Daily_Macros
+    helpers.macro_values
+    #get base metabolic rate for first ever usage
+    while True:
+        global bas_met_rat
+        rate = input("What is your Base Metabolic Rate to the nearest integer: ")
+        if rate.isdigit():
+            bas_met_rat = int(rate)
+            break
+        else:
+            print("If you dont't know, the average is 1700 for men and 1400 for women")
+    #start the first day
+    helpers.start_day()
+    #start time clock going, this makes the check time forever function run simultaneosly even when terminal is waiting for input
+    checker_thread = threading.Thread(target=check_time_forever, daemon=True)
+    checker_thread.start()
+    #define possible actions
+    poss_actions = ["submit food","submit workout","check daily macros","check all time macros","end usage","end day","check all time weight"]
+    #ask user what they want to do-- user interface
+    while True:
+        while True:
+            action = input("Would you like to: Submit Workout, Submit Food, Check Daily Macros, Check all time Macros, Check all time weight, End Usage, End day(temp)\n")
+            if action.lower() in poss_actions:
+                break
+            else:
+                print("Please chose a given option")
+        #if statements for each action, relatively self explanatory
+        if action.lower() == "submit food":
+            food = helpers.find_food()
+            while True:
+                #gets a food item and quantity from user and adds to daily macros
+                no_pcs = input("How many 100 gram portions did you eat of this item, to the nearest integer? ")
+                if no_pcs.isdigit():
+                    quant = int(no_pcs)
+                    break
+                else:
+                    print("please enter an integer answer")
+            helpers.add_item(food,quant)
+
+        if action.lower() == "submit workout":
+            #gets workout and time from user and subtracts calories from daily macros
+            workout = helpers.find_work()
+            calor = helpers.work_calor(workout)
+            helpers.add_workout(calor)
+        if action.lower() == "check daily macros":
+            #prints the current daily macros so far
+            for m in helpers.macro_values:
+                if m != "sodium":
+                    print(f"You have consumed {helpers.Daily_Macros[m]} grams of {m}")
+                else:
+                    print(f"You have consumed {helpers.Daily_Macros[m]} milligrams of {m}")
+
+        if action.lower() == "check all time macros":
+            with open('daily_data.json', 'r') as file:
+                dailydata = json.load(file)
+                #goes into dailydata json file and prints each days final daily macros (bas met rate included)
+                for d in dailydata:
+                    for n in range(1,len(dailydata)-1):
+                        if d["day"] == f"day{n}":
+                            print(f"On day {n} your macros were: ")
+                            for k in helpers.macro_values:
+                                if k != "sodium":
+                                    print(f"You have consumed {d["macros"][k]} grams of {k}")
+                                else:
+                                    print(f"You have consumed {d["macros"][k]} milligrams of {k}")
+
+
+        if action.lower() == "check all time weight":
+            #goes into dailydata and prints each days weight progression
+            with open('daily_data.json', 'r') as file:
+                dailydata = json.load(file)
+                for d in dailydata:
+                    for n in range(1,len(dailydata)-1):
+                        if d["day"] == f"day{n}":
+                            print(f"On day {n} your weight was {d["weight"]}Kg")
+
+
+        if action.lower() == "end usage":
+            #fully kills terminal after ending current day, no more usage without a full restart
+            helpers.end_day(bas_met_rat)
+            break
+        if action.lower() == "end day":
+            #ends day, mostly for testing purposes as in actual usage this happens automatically at midnight, however obviosly i cant wait till midnight when trouble shooting this
+            helpers.end_day(bas_met_rat)
+            helpers.start_day()
+
+
+
+if __name__ == '__main__':
+    main()
