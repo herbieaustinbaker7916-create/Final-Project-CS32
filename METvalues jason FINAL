@@ -1,0 +1,2472 @@
+[
+  {
+    "Description": "Walking (very slow, <3.2 km/h / <2.0 mph, strolling)",
+    "MET": "2.3",
+    "vo2_ml_kg_min": "8",
+    "kcal_per_hour_70kg": "161",
+    "Intensity": "Light",
+    "Category": "Walking",
+    "Subcategory": "Walking pace",
+    "Original Code": "17151"
+  },
+  {
+    "Description": "Walking (slow, ~3.2–3.9 km/h / 2.0–2.4 mph)",
+    "MET": "2.8",
+    "vo2_ml_kg_min": "9.8",
+    "kcal_per_hour_70kg": "196",
+    "Intensity": "Light",
+    "Category": "Walking",
+    "Subcategory": "Walking pace",
+    "Original Code": "17152"
+  },
+  {
+    "Description": "Walking (easy, ~4.0 km/h / 2.5 mph)",
+    "MET": "3",
+    "vo2_ml_kg_min": "10.5",
+    "kcal_per_hour_70kg": "210",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Walking pace",
+    "Original Code": "17170"
+  },
+  {
+    "Description": "Walking (moderate, ~4.5–5.5 km/h / 2.8–3.4 mph)",
+    "MET": "3.8",
+    "vo2_ml_kg_min": "13.3",
+    "kcal_per_hour_70kg": "266",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Walking pace",
+    "Original Code": "17190"
+  },
+  {
+    "Description": "Walking (self-selected speed, general)",
+    "MET": "4",
+    "vo2_ml_kg_min": "14",
+    "kcal_per_hour_70kg": "280",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Walking pace",
+    "Original Code": "17255"
+  },
+  {
+    "Description": "Walking (brisk, ~5.6–6.3 km/h / 3.5–3.9 mph, exercise walk)",
+    "MET": "4.8",
+    "vo2_ml_kg_min": "16.8",
+    "kcal_per_hour_70kg": "336",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Walking pace",
+    "Original Code": "17200"
+  },
+  {
+    "Description": "Walking (very brisk, ~6.4–7.1 km/h / 4.0–4.4 mph)",
+    "MET": "5.5",
+    "vo2_ml_kg_min": "19.3",
+    "kcal_per_hour_70kg": "385",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Walking pace",
+    "Original Code": "17220"
+  },
+  {
+    "Description": "Walking (very fast, ~7.2–7.9 km/h / 4.5–4.9 mph)",
+    "MET": "7",
+    "vo2_ml_kg_min": "24.5",
+    "kcal_per_hour_70kg": "490",
+    "Intensity": "Vigorous",
+    "Category": "Walking",
+    "Subcategory": "Walking pace",
+    "Original Code": "17230"
+  },
+  {
+    "Description": "Walking (speed walking, ~8.0–8.9 km/h / 5.0–5.5 mph)",
+    "MET": "8.5",
+    "vo2_ml_kg_min": "29.8",
+    "kcal_per_hour_70kg": "595",
+    "Intensity": "Vigorous",
+    "Category": "Walking",
+    "Subcategory": "Walking pace",
+    "Original Code": "17231"
+  },
+  {
+    "Description": "Walking (household / around home)",
+    "MET": "2.3",
+    "vo2_ml_kg_min": "8",
+    "kcal_per_hour_70kg": "161",
+    "Intensity": "Light",
+    "Category": "Walking",
+    "Subcategory": "Daily walking",
+    "Original Code": "17150"
+  },
+  {
+    "Description": "Walking (to/from car, bus, short errands)",
+    "MET": "2.5",
+    "vo2_ml_kg_min": "8.8",
+    "kcal_per_hour_70kg": "175",
+    "Intensity": "Light",
+    "Category": "Walking",
+    "Subcategory": "Daily walking",
+    "Original Code": "17161"
+  },
+  {
+    "Description": "Walking the dog",
+    "MET": "3",
+    "vo2_ml_kg_min": "10.5",
+    "kcal_per_hour_70kg": "210",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Daily walking",
+    "Original Code": "17165"
+  },
+  {
+    "Description": "Walking to work / class",
+    "MET": "4",
+    "vo2_ml_kg_min": "14",
+    "kcal_per_hour_70kg": "280",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Daily walking",
+    "Original Code": "17270"
+  },
+  {
+    "Description": "Walking, treadmill, 1.0 mph, 0% grade (1.6 km/h)",
+    "MET": "2.3",
+    "vo2_ml_kg_min": "8",
+    "kcal_per_hour_70kg": "161",
+    "Intensity": "Light",
+    "Category": "Walking",
+    "Subcategory": "Treadmill",
+    "Original Code": "17343"
+  },
+  {
+    "Description": "Walking, treadmill, 1.2 to 1.9 mph, 0% grade (1.9 to 3.0 km/h)",
+    "MET": "2.8",
+    "vo2_ml_kg_min": "9.8",
+    "kcal_per_hour_70kg": "196",
+    "Intensity": "Light",
+    "Category": "Walking",
+    "Subcategory": "Treadmill",
+    "Original Code": "17346"
+  },
+  {
+    "Description": "Walking, treadmill, 2.0 to 2.4 mph (3.2 to 3.9 km/h), 0% grade",
+    "MET": "3",
+    "vo2_ml_kg_min": "10.5",
+    "kcal_per_hour_70kg": "210",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Treadmill",
+    "Original Code": "17349"
+  },
+  {
+    "Description": "Walking, treadmill, 2.5 to 2.9 mph (4.0 to 4.7 km/h), 0% grade",
+    "MET": "3.5",
+    "vo2_ml_kg_min": "12.3",
+    "kcal_per_hour_70kg": "245",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Treadmill",
+    "Original Code": "17352"
+  },
+  {
+    "Description": "Walking with day pack (easy, level)",
+    "MET": "3.5",
+    "vo2_ml_kg_min": "12.3",
+    "kcal_per_hour_70kg": "245",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Hiking",
+    "Original Code": "17011"
+  },
+  {
+    "Description": "Walking, treadmill, 3.0 to 3.4 mph (4.8 to 5.5 km/h), 0% grade",
+    "MET": "3.8",
+    "vo2_ml_kg_min": "13.3",
+    "kcal_per_hour_70kg": "266",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Treadmill",
+    "Original Code": "17355"
+  },
+  {
+    "Description": "Hiking (easy / slow, no load)",
+    "MET": "3.8",
+    "vo2_ml_kg_min": "13.3",
+    "kcal_per_hour_70kg": "266",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Hiking",
+    "Original Code": "17081"
+  },
+  {
+    "Description": "Walking, treadmill, 3.5 to 3.9 mph (5.6 to 6.3 km/h), 0% grade",
+    "MET": "4.8",
+    "vo2_ml_kg_min": "16.8",
+    "kcal_per_hour_70kg": "336",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Treadmill",
+    "Original Code": "17358"
+  },
+  {
+    "Description": "Hiking (normal pace, no load)",
+    "MET": "5.3",
+    "vo2_ml_kg_min": "18.6",
+    "kcal_per_hour_70kg": "371",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Hiking",
+    "Original Code": "17082"
+  },
+  {
+    "Description": "Walking, treadmill, 4.0 to 4.4 mph (6.4 to 7.1 km/h), 0% grade",
+    "MET": "5.8",
+    "vo2_ml_kg_min": "20.3",
+    "kcal_per_hour_70kg": "406",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Treadmill",
+    "Original Code": "17361"
+  },
+  {
+    "Description": "Hiking (cross-country / general)",
+    "MET": "6",
+    "vo2_ml_kg_min": "21",
+    "kcal_per_hour_70kg": "420",
+    "Intensity": "Vigorous",
+    "Category": "Walking",
+    "Subcategory": "Hiking",
+    "Original Code": "17080"
+  },
+  {
+    "Description": "Walking, treadmill, 4.5 to 4.9 mph (7.2 to 7.9 km/h), 0% grade",
+    "MET": "6.8",
+    "vo2_ml_kg_min": "23.8",
+    "kcal_per_hour_70kg": "476",
+    "Intensity": "Vigorous",
+    "Category": "Walking",
+    "Subcategory": "Treadmill",
+    "Original Code": "17364"
+  },
+  {
+    "Description": "Backpacking (general)",
+    "MET": "7",
+    "vo2_ml_kg_min": "24.5",
+    "kcal_per_hour_70kg": "490",
+    "Intensity": "Vigorous",
+    "Category": "Walking",
+    "Subcategory": "Hiking",
+    "Original Code": "17010"
+  },
+  {
+    "Description": "Hiking with day pack (organized / faster)",
+    "MET": "7.8",
+    "vo2_ml_kg_min": "27.3",
+    "kcal_per_hour_70kg": "546",
+    "Intensity": "Vigorous",
+    "Category": "Walking",
+    "Subcategory": "Hiking",
+    "Original Code": "17012"
+  },
+  {
+    "Description": "Walking, treadmill, 5.0 to 5.5 mph (8.0 to 8.9 km/h), 0% grade",
+    "MET": "8.3",
+    "vo2_ml_kg_min": "29.1",
+    "kcal_per_hour_70kg": "581",
+    "Intensity": "Vigorous",
+    "Category": "Walking",
+    "Subcategory": "Treadmill",
+    "Original Code": "17367"
+  },
+  {
+    "Description": "Hill walking (5–20% grade, very slow)",
+    "MET": "5",
+    "vo2_ml_kg_min": "17.5",
+    "kcal_per_hour_70kg": "350",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Hills",
+    "Original Code": "17032"
+  },
+  {
+    "Description": "Walking uphill / incline (1–5% grade, moderate–brisk)",
+    "MET": "5.3",
+    "vo2_ml_kg_min": "18.6",
+    "kcal_per_hour_70kg": "371",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Hills",
+    "Original Code": "17034"
+  },
+  {
+    "Description": "Walking uphill / incline (6–10% grade)",
+    "MET": "7",
+    "vo2_ml_kg_min": "24.5",
+    "kcal_per_hour_70kg": "490",
+    "Intensity": "Vigorous",
+    "Category": "Walking",
+    "Subcategory": "Hills",
+    "Original Code": "17035"
+  },
+  {
+    "Description": "Walking uphill / incline (11–20% grade)",
+    "MET": "8.8",
+    "vo2_ml_kg_min": "30.8",
+    "kcal_per_hour_70kg": "616",
+    "Intensity": "Vigorous",
+    "Category": "Walking",
+    "Subcategory": "Hills",
+    "Original Code": "17036"
+  },
+  {
+    "Description": "Descending stairs (down only)",
+    "MET": "3.5",
+    "vo2_ml_kg_min": "12.3",
+    "kcal_per_hour_70kg": "245",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Stairs",
+    "Original Code": "17070"
+  },
+  {
+    "Description": "Stair climbing (slow pace)",
+    "MET": "4.5",
+    "vo2_ml_kg_min": "15.8",
+    "kcal_per_hour_70kg": "315",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Stairs",
+    "Original Code": "17133"
+  },
+  {
+    "Description": "Stair climbing (general)",
+    "MET": "6.8",
+    "vo2_ml_kg_min": "23.8",
+    "kcal_per_hour_70kg": "476",
+    "Intensity": "Vigorous",
+    "Category": "Walking",
+    "Subcategory": "Stairs",
+    "Original Code": "17131"
+  },
+  {
+    "Description": "Stairs (up + down combined)",
+    "MET": "7.5",
+    "vo2_ml_kg_min": "26.3",
+    "kcal_per_hour_70kg": "525",
+    "Intensity": "Vigorous",
+    "Category": "Walking",
+    "Subcategory": "Stairs",
+    "Original Code": "17138"
+  },
+  {
+    "Description": "Stair climbing (fast pace)",
+    "MET": "9.3",
+    "vo2_ml_kg_min": "32.6",
+    "kcal_per_hour_70kg": "651",
+    "Intensity": "Very Vigorous",
+    "Category": "Walking",
+    "Subcategory": "Stairs",
+    "Original Code": "17134"
+  },
+  {
+    "Description": "Walking while carrying a child (~4.5 kg / 10 lb)",
+    "MET": "2.3",
+    "vo2_ml_kg_min": "8",
+    "kcal_per_hour_70kg": "161",
+    "Intensity": "Light",
+    "Category": "Walking",
+    "Subcategory": "Carrying load",
+    "Original Code": "17021"
+  },
+  {
+    "Description": "Carrying light load (2–6 kg / 4–13 lb, level ground)",
+    "MET": "4",
+    "vo2_ml_kg_min": "14",
+    "kcal_per_hour_70kg": "280",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Carrying load",
+    "Original Code": "17016"
+  },
+  {
+    "Description": "Carrying heavy load (7–70 kg / 15–154 lb, slow pace)",
+    "MET": "4.5",
+    "vo2_ml_kg_min": "15.8",
+    "kcal_per_hour_70kg": "315",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Carrying load",
+    "Original Code": "17018"
+  },
+  {
+    "Description": "Nordic walking (moderate pace)",
+    "MET": "4.3",
+    "vo2_ml_kg_min": "15",
+    "kcal_per_hour_70kg": "301",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Nordic walking",
+    "Original Code": "17302"
+  },
+  {
+    "Description": "Nordic walking (faster pace)",
+    "MET": "5.3",
+    "vo2_ml_kg_min": "18.6",
+    "kcal_per_hour_70kg": "371",
+    "Intensity": "Moderate",
+    "Category": "Walking",
+    "Subcategory": "Nordic walking",
+    "Original Code": "17304"
+  },
+  {
+    "Description": "Nordic walking uphill (moderate)",
+    "MET": "8.8",
+    "vo2_ml_kg_min": "30.8",
+    "kcal_per_hour_70kg": "616",
+    "Intensity": "Vigorous",
+    "Category": "Walking",
+    "Subcategory": "Nordic walking",
+    "Original Code": "17310"
+  },
+  {
+    "Description": "Running (easy, ~8:05 min/km / 13:00 min/mile, ~6.4 km/h / 4.0 mph)",
+    "MET": "6.5",
+    "vo2_ml_kg_min": "22.8",
+    "kcal_per_hour_70kg": "455",
+    "Intensity": "Vigorous",
+    "Category": "Running",
+    "Subcategory": "Pace-based",
+    "Original Code": "12028"
+  },
+  {
+    "Description": "Running (steady, ~7:27 min/km / 12:00 min/mile, ~8.0 km/h / 5.0 mph)",
+    "MET": "8.5",
+    "vo2_ml_kg_min": "29.8",
+    "kcal_per_hour_70kg": "595",
+    "Intensity": "Vigorous",
+    "Category": "Running",
+    "Subcategory": "Pace-based",
+    "Original Code": "12030"
+  },
+  {
+    "Description": "Running (~6:13 min/km / 10:00 min/mile, ~9.7 km/h / 6.0 mph)",
+    "MET": "9.3",
+    "vo2_ml_kg_min": "32.6",
+    "kcal_per_hour_70kg": "651",
+    "Intensity": "Very Vigorous",
+    "Category": "Running",
+    "Subcategory": "Pace-based",
+    "Original Code": "12050"
+  },
+  {
+    "Description": "Running (~5:20 min/km / 8:30 min/mile, ~11.3 km/h / 7.0 mph)",
+    "MET": "11",
+    "vo2_ml_kg_min": "38.5",
+    "kcal_per_hour_70kg": "770",
+    "Intensity": "Very Vigorous",
+    "Category": "Running",
+    "Subcategory": "Pace-based",
+    "Original Code": "12070"
+  },
+  {
+    "Description": "Running (~4:40 min/km / 7:30 min/mile, ~12.9 km/h / 8.0 mph)",
+    "MET": "12",
+    "vo2_ml_kg_min": "42",
+    "kcal_per_hour_70kg": "840",
+    "Intensity": "Very Vigorous",
+    "Category": "Running",
+    "Subcategory": "Pace-based",
+    "Original Code": "12090"
+  },
+  {
+    "Description": "Running (~4:02 min/km / 6:30 min/mile, ~14.5 km/h / 9.0 mph)",
+    "MET": "13",
+    "vo2_ml_kg_min": "45.5",
+    "kcal_per_hour_70kg": "910",
+    "Intensity": "Very Vigorous",
+    "Category": "Running",
+    "Subcategory": "Pace-based",
+    "Original Code": "12110"
+  },
+  {
+    "Description": "Running (~3:44 min/km / 6:00 min/mile, ~16.1 km/h / 10.0 mph)",
+    "MET": "14.8",
+    "vo2_ml_kg_min": "51.8",
+    "kcal_per_hour_70kg": "1036",
+    "Intensity": "Very Vigorous",
+    "Category": "Running",
+    "Subcategory": "Pace-based",
+    "Original Code": "12120"
+  },
+  {
+    "Description": "Running (~3:23 min/km / 5:30 min/mile, ~17.7 km/h / 11.0 mph)",
+    "MET": "16.8",
+    "vo2_ml_kg_min": "58.8",
+    "kcal_per_hour_70kg": "1176",
+    "Intensity": "Very Vigorous",
+    "Category": "Running",
+    "Subcategory": "Pace-based",
+    "Original Code": "12130"
+  },
+  {
+    "Description": "Trail / cross-country running",
+    "MET": "9.3",
+    "vo2_ml_kg_min": "32.6",
+    "kcal_per_hour_70kg": "651",
+    "Intensity": "Very Vigorous",
+    "Category": "Running",
+    "Subcategory": "Terrain",
+    "Original Code": "12140"
+  },
+  {
+    "Description": "Running stairs (up)",
+    "MET": "15",
+    "vo2_ml_kg_min": "52.5",
+    "kcal_per_hour_70kg": "1050",
+    "Intensity": "Very Vigorous",
+    "Category": "Running",
+    "Subcategory": "Terrain",
+    "Original Code": "12170"
+  },
+  {
+    "Description": "Running uphill (5% incline, ~7.2 km/h / 4.5 mph)",
+    "MET": "10.3",
+    "vo2_ml_kg_min": "36.1",
+    "kcal_per_hour_70kg": "721",
+    "Intensity": "Very Vigorous",
+    "Category": "Running",
+    "Subcategory": "Incline",
+    "Original Code": "12255"
+  },
+  {
+    "Description": "Running uphill (5% incline, ~11.3 km/h / 7.0 mph)",
+    "MET": "15.5",
+    "vo2_ml_kg_min": "54.3",
+    "kcal_per_hour_70kg": "1085",
+    "Intensity": "Very Vigorous",
+    "Category": "Running",
+    "Subcategory": "Incline",
+    "Original Code": "12265"
+  },
+  {
+    "Description": "Jogging (self-selected pace)",
+    "MET": "7.5",
+    "vo2_ml_kg_min": "26.3",
+    "kcal_per_hour_70kg": "525",
+    "Intensity": "Vigorous",
+    "Category": "Running",
+    "Subcategory": "General",
+    "Original Code": "12020"
+  },
+  {
+    "Description": "Running (self-selected pace)",
+    "MET": "10.5",
+    "vo2_ml_kg_min": "36.8",
+    "kcal_per_hour_70kg": "735",
+    "Intensity": "Very Vigorous",
+    "Category": "Running",
+    "Subcategory": "General",
+    "Original Code": "12145"
+  },
+  {
+    "Description": "Running with backpack (light pack, ~9.7–11.1 km/h / 6.0–6.9 mph)",
+    "MET": "9.5",
+    "vo2_ml_kg_min": "33.3",
+    "kcal_per_hour_70kg": "665",
+    "Intensity": "Very Vigorous",
+    "Category": "Running",
+    "Subcategory": "Other",
+    "Original Code": "12510"
+  },
+  {
+    "Description": "Running with stroller (outdoors, ~8.0 km/h / 5.0 mph)",
+    "MET": "10",
+    "vo2_ml_kg_min": "35",
+    "kcal_per_hour_70kg": "700",
+    "Intensity": "Very Vigorous",
+    "Category": "Running",
+    "Subcategory": "Other",
+    "Original Code": "12593"
+  },
+  {
+    "Description": "Cycling (very easy, ~9 km/h / 5.5 mph)",
+    "MET": "3.5",
+    "vo2_ml_kg_min": "12.3",
+    "kcal_per_hour_70kg": "245",
+    "Intensity": "Moderate",
+    "Category": "Cycling",
+    "Subcategory": "Outdoor",
+    "Original Code": "01018"
+  },
+  {
+    "Description": "Cycling (easy, <16 km/h / <10 mph)",
+    "MET": "4",
+    "vo2_ml_kg_min": "14",
+    "kcal_per_hour_70kg": "280",
+    "Intensity": "Moderate",
+    "Category": "Cycling",
+    "Subcategory": "Outdoor",
+    "Original Code": "01010"
+  },
+  {
+    "Description": "Cycling (dirt / farm road, moderate)",
+    "MET": "5.8",
+    "vo2_ml_kg_min": "20.3",
+    "kcal_per_hour_70kg": "406",
+    "Intensity": "Moderate",
+    "Category": "Cycling",
+    "Subcategory": "Outdoor",
+    "Original Code": "01013"
+  },
+  {
+    "Description": "Cycling (light, 16–19 km/h / 10–12 mph)",
+    "MET": "6.8",
+    "vo2_ml_kg_min": "23.8",
+    "kcal_per_hour_70kg": "476",
+    "Intensity": "Vigorous",
+    "Category": "Cycling",
+    "Subcategory": "Outdoor",
+    "Original Code": "01020"
+  },
+  {
+    "Description": "Cycling commute (self-selected pace)",
+    "MET": "6.8",
+    "vo2_ml_kg_min": "23.8",
+    "kcal_per_hour_70kg": "476",
+    "Intensity": "Vigorous",
+    "Category": "Cycling",
+    "Subcategory": "Outdoor",
+    "Original Code": "01011"
+  },
+  {
+    "Description": "Cycling (moderate, 19–22 km/h / 12–14 mph)",
+    "MET": "8",
+    "vo2_ml_kg_min": "28",
+    "kcal_per_hour_70kg": "560",
+    "Intensity": "Vigorous",
+    "Category": "Cycling",
+    "Subcategory": "Outdoor",
+    "Original Code": "01030"
+  },
+  {
+    "Description": "Cycling (vigorous, 22–26 km/h / 14–16 mph)",
+    "MET": "10",
+    "vo2_ml_kg_min": "35",
+    "kcal_per_hour_70kg": "700",
+    "Intensity": "Very Vigorous",
+    "Category": "Cycling",
+    "Subcategory": "Outdoor",
+    "Original Code": "01040"
+  },
+  {
+    "Description": "Cycling (very fast, 26–31 km/h / 16–19 mph)",
+    "MET": "12",
+    "vo2_ml_kg_min": "42",
+    "kcal_per_hour_70kg": "840",
+    "Intensity": "Very Vigorous",
+    "Category": "Cycling",
+    "Subcategory": "Outdoor",
+    "Original Code": "01050"
+  },
+  {
+    "Description": "Cycling (racing, >32 km/h / >20 mph)",
+    "MET": "16.8",
+    "vo2_ml_kg_min": "58.8",
+    "kcal_per_hour_70kg": "1176",
+    "Intensity": "Very Vigorous",
+    "Category": "Cycling",
+    "Subcategory": "Outdoor",
+    "Original Code": "01060"
+  },
+  {
+    "Description": "Mountain biking (general)",
+    "MET": "8.5",
+    "vo2_ml_kg_min": "29.8",
+    "kcal_per_hour_70kg": "595",
+    "Intensity": "Vigorous",
+    "Category": "Cycling",
+    "Subcategory": "Mountain",
+    "Original Code": "01009"
+  },
+  {
+    "Description": "Mountain biking (uphill, vigorous)",
+    "MET": "14",
+    "vo2_ml_kg_min": "49",
+    "kcal_per_hour_70kg": "980",
+    "Intensity": "Very Vigorous",
+    "Category": "Cycling",
+    "Subcategory": "Mountain",
+    "Original Code": "01003"
+  },
+  {
+    "Description": "Mountain biking (competitive racing)",
+    "MET": "16",
+    "vo2_ml_kg_min": "56",
+    "kcal_per_hour_70kg": "1120",
+    "Intensity": "Very Vigorous",
+    "Category": "Cycling",
+    "Subcategory": "Mountain",
+    "Original Code": "01004"
+  },
+  {
+    "Description": "E-bike (high assist)",
+    "MET": "4",
+    "vo2_ml_kg_min": "14",
+    "kcal_per_hour_70kg": "280",
+    "Intensity": "Moderate",
+    "Category": "Cycling",
+    "Subcategory": "E-bike",
+    "Original Code": "01088"
+  },
+  {
+    "Description": "E-bike (light assist)",
+    "MET": "6",
+    "vo2_ml_kg_min": "21",
+    "kcal_per_hour_70kg": "420",
+    "Intensity": "Vigorous",
+    "Category": "Cycling",
+    "Subcategory": "E-bike",
+    "Original Code": "01084"
+  },
+  {
+    "Description": "E-bike (minimal assist / no support)",
+    "MET": "6.8",
+    "vo2_ml_kg_min": "23.8",
+    "kcal_per_hour_70kg": "476",
+    "Intensity": "Vigorous",
+    "Category": "Cycling",
+    "Subcategory": "E-bike",
+    "Original Code": "01080"
+  },
+  {
+    "Description": "Stationary bike (very light, 25–30 W)",
+    "MET": "3.5",
+    "vo2_ml_kg_min": "12.3",
+    "kcal_per_hour_70kg": "245",
+    "Intensity": "Moderate",
+    "Category": "Cycling",
+    "Subcategory": "Indoor",
+    "Original Code": "01210"
+  },
+  {
+    "Description": "Stationary bike (light–moderate, ~60 W)",
+    "MET": "5",
+    "vo2_ml_kg_min": "17.5",
+    "kcal_per_hour_70kg": "350",
+    "Intensity": "Moderate",
+    "Category": "Cycling",
+    "Subcategory": "Indoor",
+    "Original Code": "01216"
+  },
+  {
+    "Description": "Stationary bike (moderate, 101–125 W)",
+    "MET": "6.8",
+    "vo2_ml_kg_min": "23.8",
+    "kcal_per_hour_70kg": "476",
+    "Intensity": "Vigorous",
+    "Category": "Cycling",
+    "Subcategory": "Indoor",
+    "Original Code": "01224"
+  },
+  {
+    "Description": "Stationary bike (vigorous, 126–150 W)",
+    "MET": "8",
+    "vo2_ml_kg_min": "28",
+    "kcal_per_hour_70kg": "560",
+    "Intensity": "Vigorous",
+    "Category": "Cycling",
+    "Subcategory": "Indoor",
+    "Original Code": "01228"
+  },
+  {
+    "Description": "Stationary bike (very vigorous, 151–199 W)",
+    "MET": "10.3",
+    "vo2_ml_kg_min": "36.1",
+    "kcal_per_hour_70kg": "721",
+    "Intensity": "Very Vigorous",
+    "Category": "Cycling",
+    "Subcategory": "Indoor",
+    "Original Code": "01232"
+  },
+  {
+    "Description": "Stationary bike (elite effort, >325 W)",
+    "MET": "16.3",
+    "vo2_ml_kg_min": "57.1",
+    "kcal_per_hour_70kg": "1141",
+    "Intensity": "Very Vigorous",
+    "Category": "Cycling",
+    "Subcategory": "Indoor",
+    "Original Code": "01248"
+  },
+  {
+    "Description": "Cycling HIIT (intervals)",
+    "MET": "8.8",
+    "vo2_ml_kg_min": "30.8",
+    "kcal_per_hour_70kg": "616",
+    "Intensity": "Vigorous",
+    "Category": "Cycling",
+    "Subcategory": "Spin/HIIT/Virtual",
+    "Original Code": "01305"
+  },
+  {
+    "Description": "Virtual cycling (interactive / ergometer)",
+    "MET": "8.8",
+    "vo2_ml_kg_min": "30.8",
+    "kcal_per_hour_70kg": "616",
+    "Intensity": "Vigorous",
+    "Category": "Cycling",
+    "Subcategory": "Spin/HIIT/Virtual",
+    "Original Code": "01290"
+  },
+  {
+    "Description": "Spin class",
+    "MET": "9",
+    "vo2_ml_kg_min": "31.5",
+    "kcal_per_hour_70kg": "630",
+    "Intensity": "Very Vigorous",
+    "Category": "Cycling",
+    "Subcategory": "Spin/HIIT/Virtual",
+    "Original Code": "01270"
+  },
+  {
+    "Description": "Unicycling",
+    "MET": "5",
+    "vo2_ml_kg_min": "17.5",
+    "kcal_per_hour_70kg": "350",
+    "Intensity": "Moderate",
+    "Category": "Cycling",
+    "Subcategory": "Other",
+    "Original Code": "01070"
+  },
+  {
+    "Description": "BMX",
+    "MET": "8.5",
+    "vo2_ml_kg_min": "29.8",
+    "kcal_per_hour_70kg": "595",
+    "Intensity": "Vigorous",
+    "Category": "Cycling",
+    "Subcategory": "Other",
+    "Original Code": "01008"
+  },
+  {
+    "Description": "Digi-Jump Machine",
+    "MET": "9",
+    "vo2_ml_kg_min": "31.5",
+    "kcal_per_hour_70kg": "630",
+    "Intensity": "Very Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Jump rope",
+    "Original Code": "02069"
+  },
+  {
+    "Description": "Weight training (multiple exercises, moderate volume)",
+    "MET": "3.5",
+    "vo2_ml_kg_min": "12.3",
+    "kcal_per_hour_70kg": "245",
+    "Intensity": "Moderate",
+    "Category": "Exercise",
+    "Subcategory": "Strength",
+    "Original Code": "02054"
+  },
+  {
+    "Description": "Strength training (compound lifts: squat/deadlift)",
+    "MET": "5",
+    "vo2_ml_kg_min": "17.5",
+    "kcal_per_hour_70kg": "350",
+    "Intensity": "Moderate",
+    "Category": "Exercise",
+    "Subcategory": "Strength",
+    "Original Code": "02052"
+  },
+  {
+    "Description": "Strength training (supersets / circuit style)",
+    "MET": "5.8",
+    "vo2_ml_kg_min": "20.3",
+    "kcal_per_hour_70kg": "406",
+    "Intensity": "Moderate",
+    "Category": "Exercise",
+    "Subcategory": "Strength",
+    "Original Code": "02055"
+  },
+  {
+    "Description": "Weight lifting (vigorous / bodybuilding)",
+    "MET": "6",
+    "vo2_ml_kg_min": "21",
+    "kcal_per_hour_70kg": "420",
+    "Intensity": "Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Strength",
+    "Original Code": "02050"
+  },
+  {
+    "Description": "Kettlebell swings",
+    "MET": "9.8",
+    "vo2_ml_kg_min": "34.3",
+    "kcal_per_hour_70kg": "686",
+    "Intensity": "Very Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Strength",
+    "Original Code": "02058"
+  },
+  {
+    "Description": "Calisthenics (light: core/plank/crunches)",
+    "MET": "2.8",
+    "vo2_ml_kg_min": "9.8",
+    "kcal_per_hour_70kg": "196",
+    "Intensity": "Light",
+    "Category": "Exercise",
+    "Subcategory": "Bodyweight",
+    "Original Code": "02024"
+  },
+  {
+    "Description": "Bodyweight strength (general)",
+    "MET": "3",
+    "vo2_ml_kg_min": "10.5",
+    "kcal_per_hour_70kg": "210",
+    "Intensity": "Moderate",
+    "Category": "Exercise",
+    "Subcategory": "Bodyweight",
+    "Original Code": "02056"
+  },
+  {
+    "Description": "Calisthenics (moderate)",
+    "MET": "3.8",
+    "vo2_ml_kg_min": "13.3",
+    "kcal_per_hour_70kg": "266",
+    "Intensity": "Moderate",
+    "Category": "Exercise",
+    "Subcategory": "Bodyweight",
+    "Original Code": "02022"
+  },
+  {
+    "Description": "Bodyweight strength (high intensity)",
+    "MET": "6.5",
+    "vo2_ml_kg_min": "22.8",
+    "kcal_per_hour_70kg": "455",
+    "Intensity": "Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Bodyweight",
+    "Original Code": "02057"
+  },
+  {
+    "Description": "Calisthenics (vigorous: burpees/jacks/ropes)",
+    "MET": "7.5",
+    "vo2_ml_kg_min": "26.3",
+    "kcal_per_hour_70kg": "525",
+    "Intensity": "Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Bodyweight",
+    "Original Code": "02020"
+  },
+  {
+    "Description": "Circuit training (moderate)",
+    "MET": "5",
+    "vo2_ml_kg_min": "17.5",
+    "kcal_per_hour_70kg": "350",
+    "Intensity": "Moderate",
+    "Category": "Exercise",
+    "Subcategory": "Circuit",
+    "Original Code": "02035"
+  },
+  {
+    "Description": "Circuit training (bodyweight)",
+    "MET": "6",
+    "vo2_ml_kg_min": "21",
+    "kcal_per_hour_70kg": "420",
+    "Intensity": "Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Circuit",
+    "Original Code": "02032"
+  },
+  {
+    "Description": "Circuit training (vigorous, minimal rest)",
+    "MET": "7.5",
+    "vo2_ml_kg_min": "26.3",
+    "kcal_per_hour_70kg": "525",
+    "Intensity": "Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Circuit",
+    "Original Code": "02040"
+  },
+  {
+    "Description": "HIIT (moderate)",
+    "MET": "7",
+    "vo2_ml_kg_min": "24.5",
+    "kcal_per_hour_70kg": "490",
+    "Intensity": "Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "HIIT",
+    "Original Code": "02210"
+  },
+  {
+    "Description": "HIIT / Tabata (vigorous)",
+    "MET": "11",
+    "vo2_ml_kg_min": "38.5",
+    "kcal_per_hour_70kg": "770",
+    "Intensity": "Very Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "HIIT",
+    "Original Code": "02214"
+  },
+  {
+    "Description": "Step aerobics (4-inch step / 10 cm)",
+    "MET": "5.5",
+    "vo2_ml_kg_min": "19.3",
+    "kcal_per_hour_70kg": "385",
+    "Intensity": "Moderate",
+    "Category": "Exercise",
+    "Subcategory": "Aerobics",
+    "Original Code": "02001"
+  },
+  {
+    "Description": "Aerobics (general)",
+    "MET": "7.3",
+    "vo2_ml_kg_min": "25.6",
+    "kcal_per_hour_70kg": "511",
+    "Intensity": "Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Aerobics",
+    "Original Code": "02000"
+  },
+  {
+    "Description": "Step aerobics (6–8 inch step / 15–20 cm)",
+    "MET": "7.3",
+    "vo2_ml_kg_min": "25.6",
+    "kcal_per_hour_70kg": "511",
+    "Intensity": "Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Aerobics",
+    "Original Code": "02002"
+  },
+  {
+    "Description": "Step aerobics (10–12 inch step / 25–30 cm)",
+    "MET": "9",
+    "vo2_ml_kg_min": "31.5",
+    "kcal_per_hour_70kg": "630",
+    "Intensity": "Very Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Aerobics",
+    "Original Code": "02003"
+  },
+  {
+    "Description": "Aerobic dance (low impact)",
+    "MET": "4.8",
+    "vo2_ml_kg_min": "16.8",
+    "kcal_per_hour_70kg": "336",
+    "Intensity": "Moderate",
+    "Category": "Exercise",
+    "Subcategory": "Dance cardio",
+    "Original Code": "02005"
+  },
+  {
+    "Description": "Jazzercise / dance fitness (general)",
+    "MET": "6",
+    "vo2_ml_kg_min": "21",
+    "kcal_per_hour_70kg": "420",
+    "Intensity": "Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Dance cardio",
+    "Original Code": "02090"
+  },
+  {
+    "Description": "Zumba (group class)",
+    "MET": "6.5",
+    "vo2_ml_kg_min": "22.8",
+    "kcal_per_hour_70kg": "455",
+    "Intensity": "Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Dance cardio",
+    "Original Code": "02310"
+  },
+  {
+    "Description": "Aerobic dance (high impact)",
+    "MET": "8",
+    "vo2_ml_kg_min": "28",
+    "kcal_per_hour_70kg": "560",
+    "Intensity": "Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Dance cardio",
+    "Original Code": "02006"
+  },
+  {
+    "Description": "Elliptical (moderate)",
+    "MET": "5",
+    "vo2_ml_kg_min": "17.5",
+    "kcal_per_hour_70kg": "350",
+    "Intensity": "Moderate",
+    "Category": "Exercise",
+    "Subcategory": "Machines",
+    "Original Code": "02048"
+  },
+  {
+    "Description": "Ski machine (general)",
+    "MET": "6.8",
+    "vo2_ml_kg_min": "23.8",
+    "kcal_per_hour_70kg": "476",
+    "Intensity": "Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Machines",
+    "Original Code": "02080"
+  },
+  {
+    "Description": "Elliptical (vigorous)",
+    "MET": "9",
+    "vo2_ml_kg_min": "31.5",
+    "kcal_per_hour_70kg": "630",
+    "Intensity": "Very Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Machines",
+    "Original Code": "02049"
+  },
+  {
+    "Description": "Stair climber / stair treadmill (general)",
+    "MET": "9.3",
+    "vo2_ml_kg_min": "32.6",
+    "kcal_per_hour_70kg": "651",
+    "Intensity": "Very Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Machines",
+    "Original Code": "02065"
+  },
+  {
+    "Description": "Ski erg (double poling, moderate)",
+    "MET": "10.5",
+    "vo2_ml_kg_min": "36.8",
+    "kcal_per_hour_70kg": "735",
+    "Intensity": "Very Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Machines",
+    "Original Code": "02082"
+  },
+  {
+    "Description": "Ski erg (double poling, max effort)",
+    "MET": "18",
+    "vo2_ml_kg_min": "63",
+    "kcal_per_hour_70kg": "1260",
+    "Intensity": "Very Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Machines",
+    "Original Code": "02084"
+  },
+  {
+    "Description": "Rowing machine (<100 W, moderate)",
+    "MET": "5",
+    "vo2_ml_kg_min": "17.5",
+    "kcal_per_hour_70kg": "350",
+    "Intensity": "Moderate",
+    "Category": "Exercise",
+    "Subcategory": "Rowing",
+    "Original Code": "02071"
+  },
+  {
+    "Description": "Rowing machine (100–149 W, vigorous)",
+    "MET": "7.5",
+    "vo2_ml_kg_min": "26.3",
+    "kcal_per_hour_70kg": "525",
+    "Intensity": "Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Rowing",
+    "Original Code": "02072"
+  },
+  {
+    "Description": "Rowing machine (150–199 W, very vigorous)",
+    "MET": "11",
+    "vo2_ml_kg_min": "38.5",
+    "kcal_per_hour_70kg": "770",
+    "Intensity": "Very Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Rowing",
+    "Original Code": "02073"
+  },
+  {
+    "Description": "Rowing machine (≥200 W, elite effort)",
+    "MET": "14",
+    "vo2_ml_kg_min": "49",
+    "kcal_per_hour_70kg": "980",
+    "Intensity": "Very Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Rowing",
+    "Original Code": "02074"
+  },
+  {
+    "Description": "Rope jumping, general",
+    "MET": "11",
+    "vo2_ml_kg_min": "38.5",
+    "kcal_per_hour_70kg": "770",
+    "Intensity": "Very Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Jump rope",
+    "Original Code": "02068"
+  },
+  {
+    "Description": "Stretching (mild)",
+    "MET": "2.3",
+    "vo2_ml_kg_min": "8",
+    "kcal_per_hour_70kg": "161",
+    "Intensity": "Light",
+    "Category": "Exercise",
+    "Subcategory": "Mobility",
+    "Original Code": "02101"
+  },
+  {
+    "Description": "Pilates (mat / traditional)",
+    "MET": "1.8",
+    "vo2_ml_kg_min": "6.3",
+    "kcal_per_hour_70kg": "126",
+    "Intensity": "Light",
+    "Category": "Exercise",
+    "Subcategory": "Pilates",
+    "Original Code": "02103"
+  },
+  {
+    "Description": "Pilates (general)",
+    "MET": "2.8",
+    "vo2_ml_kg_min": "9.8",
+    "kcal_per_hour_70kg": "196",
+    "Intensity": "Light",
+    "Category": "Exercise",
+    "Subcategory": "Pilates",
+    "Original Code": "02105"
+  },
+  {
+    "Description": "Yoga - Nadisodhana",
+    "MET": "2",
+    "vo2_ml_kg_min": "7",
+    "kcal_per_hour_70kg": "140",
+    "Intensity": "Light",
+    "Category": "Exercise",
+    "Subcategory": "Yoga",
+    "Original Code": "02170"
+  },
+  {
+    "Description": "Yoga - General",
+    "MET": "2.3",
+    "vo2_ml_kg_min": "8",
+    "kcal_per_hour_70kg": "161",
+    "Intensity": "Light",
+    "Category": "Exercise",
+    "Subcategory": "Yoga",
+    "Original Code": "02175"
+  },
+  {
+    "Description": "Yoga - Hatha",
+    "MET": "2.3",
+    "vo2_ml_kg_min": "8",
+    "kcal_per_hour_70kg": "161",
+    "Intensity": "Light",
+    "Category": "Exercise",
+    "Subcategory": "Yoga",
+    "Original Code": "02150"
+  },
+  {
+    "Description": "Yoga - Vinyasa",
+    "MET": "2.7",
+    "vo2_ml_kg_min": "9.5",
+    "kcal_per_hour_70kg": "189",
+    "Intensity": "Light",
+    "Category": "Exercise",
+    "Subcategory": "Yoga",
+    "Original Code": "02185"
+  },
+  {
+    "Description": "Yoga - Hot",
+    "MET": "3",
+    "vo2_ml_kg_min": "10.5",
+    "kcal_per_hour_70kg": "210",
+    "Intensity": "Moderate",
+    "Category": "Exercise",
+    "Subcategory": "Yoga",
+    "Original Code": "02155"
+  },
+  {
+    "Description": "Yoga - Surya Namaskar",
+    "MET": "3.5",
+    "vo2_ml_kg_min": "12.3",
+    "kcal_per_hour_70kg": "245",
+    "Intensity": "Moderate",
+    "Category": "Exercise",
+    "Subcategory": "Yoga",
+    "Original Code": "02180"
+  },
+  {
+    "Description": "Yoga - Power",
+    "MET": "4",
+    "vo2_ml_kg_min": "14",
+    "kcal_per_hour_70kg": "280",
+    "Intensity": "Moderate",
+    "Category": "Exercise",
+    "Subcategory": "Yoga",
+    "Original Code": "02160"
+  },
+  {
+    "Description": "Yoga high intensity - Hatha",
+    "MET": "8",
+    "vo2_ml_kg_min": "28",
+    "kcal_per_hour_70kg": "560",
+    "Intensity": "Vigorous",
+    "Category": "Exercise",
+    "Subcategory": "Yoga",
+    "Original Code": "02153"
+  },
+  {
+    "Description": "Swimming backstroke (easy / recreational)",
+    "MET": "4.8",
+    "vo2_ml_kg_min": "16.8",
+    "kcal_per_hour_70kg": "336",
+    "Intensity": "Moderate",
+    "Category": "Water Sports",
+    "Subcategory": "Swimming (pool)",
+    "Original Code": "18255"
+  },
+  {
+    "Description": "Swimming breaststroke (easy / recreational)",
+    "MET": "5.3",
+    "vo2_ml_kg_min": "18.6",
+    "kcal_per_hour_70kg": "371",
+    "Intensity": "Moderate",
+    "Category": "Water Sports",
+    "Subcategory": "Swimming (pool)",
+    "Original Code": "18265"
+  },
+  {
+    "Description": "Swimming freestyle (slow pace / technique)",
+    "MET": "5.8",
+    "vo2_ml_kg_min": "20.3",
+    "kcal_per_hour_70kg": "406",
+    "Intensity": "Moderate",
+    "Category": "Water Sports",
+    "Subcategory": "Swimming (pool)",
+    "Original Code": "18292"
+  },
+  {
+    "Description": "Swimming laps (freestyle, easy / recreational)",
+    "MET": "5.8",
+    "vo2_ml_kg_min": "20.3",
+    "kcal_per_hour_70kg": "406",
+    "Intensity": "Moderate",
+    "Category": "Water Sports",
+    "Subcategory": "Swimming (pool)",
+    "Original Code": "18240"
+  },
+  {
+    "Description": "Swimming (leisure, not laps)",
+    "MET": "6",
+    "vo2_ml_kg_min": "21",
+    "kcal_per_hour_70kg": "420",
+    "Intensity": "Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Swimming (pool)",
+    "Original Code": "18310"
+  },
+  {
+    "Description": "Swimming sidestroke (general)",
+    "MET": "7",
+    "vo2_ml_kg_min": "24.5",
+    "kcal_per_hour_70kg": "490",
+    "Intensity": "Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Swimming (pool)",
+    "Original Code": "18320"
+  },
+  {
+    "Description": "Swimming freestyle (medium pace)",
+    "MET": "8",
+    "vo2_ml_kg_min": "28",
+    "kcal_per_hour_70kg": "560",
+    "Intensity": "Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Swimming (pool)",
+    "Original Code": "18290"
+  },
+  {
+    "Description": "Swimming backstroke (training / hard)",
+    "MET": "9.5",
+    "vo2_ml_kg_min": "33.3",
+    "kcal_per_hour_70kg": "665",
+    "Intensity": "Very Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Swimming (pool)",
+    "Original Code": "18250"
+  },
+  {
+    "Description": "Swimming freestyle (fast / vigorous)",
+    "MET": "9.8",
+    "vo2_ml_kg_min": "34.3",
+    "kcal_per_hour_70kg": "686",
+    "Intensity": "Very Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Swimming (pool)",
+    "Original Code": "18230"
+  },
+  {
+    "Description": "Swimming breaststroke (training / hard)",
+    "MET": "10.3",
+    "vo2_ml_kg_min": "36.1",
+    "kcal_per_hour_70kg": "721",
+    "Intensity": "Very Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Swimming (pool)",
+    "Original Code": "18260"
+  },
+  {
+    "Description": "Swimming freestyle (fast speed)",
+    "MET": "10.5",
+    "vo2_ml_kg_min": "36.8",
+    "kcal_per_hour_70kg": "735",
+    "Intensity": "Very Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Swimming (pool)",
+    "Original Code": "18280"
+  },
+  {
+    "Description": "Swimming butterfly (hard)",
+    "MET": "13.8",
+    "vo2_ml_kg_min": "48.3",
+    "kcal_per_hour_70kg": "966",
+    "Intensity": "Very Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Swimming (pool)",
+    "Original Code": "18270"
+  },
+  {
+    "Description": "Swimming freestyle (elite / competition)",
+    "MET": "14.5",
+    "vo2_ml_kg_min": "50.8",
+    "kcal_per_hour_70kg": "1015",
+    "Intensity": "Very Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Swimming (pool)",
+    "Original Code": "18294"
+  },
+  {
+    "Description": "Swimming (open water: lake/ocean/river)",
+    "MET": "6",
+    "vo2_ml_kg_min": "21",
+    "kcal_per_hour_70kg": "420",
+    "Intensity": "Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Swimming (open water)",
+    "Original Code": "18300"
+  },
+  {
+    "Description": "Open water swimming (race effort / 5K)",
+    "MET": "10.5",
+    "vo2_ml_kg_min": "36.8",
+    "kcal_per_hour_70kg": "735",
+    "Intensity": "Very Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Swimming (open water)",
+    "Original Code": "18285"
+  },
+  {
+    "Description": "Canoeing (light pace)",
+    "MET": "2.8",
+    "vo2_ml_kg_min": "9.8",
+    "kcal_per_hour_70kg": "196",
+    "Intensity": "Light",
+    "Category": "Water Sports",
+    "Subcategory": "Paddle sports",
+    "Original Code": "18040"
+  },
+  {
+    "Description": "Canoeing (easy / for pleasure)",
+    "MET": "3.5",
+    "vo2_ml_kg_min": "12.3",
+    "kcal_per_hour_70kg": "245",
+    "Intensity": "Moderate",
+    "Category": "Water Sports",
+    "Subcategory": "Paddle sports",
+    "Original Code": "18070"
+  },
+  {
+    "Description": "Kayaking (moderate)",
+    "MET": "5",
+    "vo2_ml_kg_min": "17.5",
+    "kcal_per_hour_70kg": "350",
+    "Intensity": "Moderate",
+    "Category": "Water Sports",
+    "Subcategory": "Paddle sports",
+    "Original Code": "18100"
+  },
+  {
+    "Description": "Whitewater rafting (general)",
+    "MET": "5",
+    "vo2_ml_kg_min": "17.5",
+    "kcal_per_hour_70kg": "350",
+    "Intensity": "Moderate",
+    "Category": "Water Sports",
+    "Subcategory": "Paddle sports",
+    "Original Code": "18370"
+  },
+  {
+    "Description": "Canoeing (moderate pace)",
+    "MET": "5.8",
+    "vo2_ml_kg_min": "20.3",
+    "kcal_per_hour_70kg": "406",
+    "Intensity": "Moderate",
+    "Category": "Water Sports",
+    "Subcategory": "Paddle sports",
+    "Original Code": "18050"
+  },
+  {
+    "Description": "Stand up paddleboarding (SUP), general",
+    "MET": "6.5",
+    "vo2_ml_kg_min": "22.8",
+    "kcal_per_hour_70kg": "455",
+    "Intensity": "Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Paddle sports",
+    "Original Code": "18224"
+  },
+  {
+    "Description": "Surfing (general)",
+    "MET": "3",
+    "vo2_ml_kg_min": "10.5",
+    "kcal_per_hour_70kg": "210",
+    "Intensity": "Moderate",
+    "Category": "Water Sports",
+    "Subcategory": "Board sports",
+    "Original Code": "18220"
+  },
+  {
+    "Description": "Windsurfing (leisure)",
+    "MET": "5",
+    "vo2_ml_kg_min": "17.5",
+    "kcal_per_hour_70kg": "350",
+    "Intensity": "Moderate",
+    "Category": "Water Sports",
+    "Subcategory": "Board sports",
+    "Original Code": "18380"
+  },
+  {
+    "Description": "Surfing (paddling)",
+    "MET": "6.8",
+    "vo2_ml_kg_min": "23.8",
+    "kcal_per_hour_70kg": "476",
+    "Intensity": "Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Board sports",
+    "Original Code": "18221"
+  },
+  {
+    "Description": "Windsurfing / kitesurfing (hard effort)",
+    "MET": "11",
+    "vo2_ml_kg_min": "38.5",
+    "kcal_per_hour_70kg": "770",
+    "Intensity": "Very Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Board sports",
+    "Original Code": "18385"
+  },
+  {
+    "Description": "Snorkeling",
+    "MET": "5",
+    "vo2_ml_kg_min": "17.5",
+    "kcal_per_hour_70kg": "350",
+    "Intensity": "Moderate",
+    "Category": "Water Sports",
+    "Subcategory": "Diving & snorkeling",
+    "Original Code": "18210"
+  },
+  {
+    "Description": "Scuba diving (light effort)",
+    "MET": "5.3",
+    "vo2_ml_kg_min": "18.6",
+    "kcal_per_hour_70kg": "371",
+    "Intensity": "Moderate",
+    "Category": "Water Sports",
+    "Subcategory": "Diving & snorkeling",
+    "Original Code": "18202"
+  },
+  {
+    "Description": "Scuba diving (moderate effort)",
+    "MET": "5.8",
+    "vo2_ml_kg_min": "20.3",
+    "kcal_per_hour_70kg": "406",
+    "Intensity": "Moderate",
+    "Category": "Water Sports",
+    "Subcategory": "Diving & snorkeling",
+    "Original Code": "18204"
+  },
+  {
+    "Description": "Scuba diving (recreational)",
+    "MET": "6.8",
+    "vo2_ml_kg_min": "23.8",
+    "kcal_per_hour_70kg": "476",
+    "Intensity": "Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Diving & snorkeling",
+    "Original Code": "18208"
+  },
+  {
+    "Description": "Scuba / skindiving (general)",
+    "MET": "7",
+    "vo2_ml_kg_min": "24.5",
+    "kcal_per_hour_70kg": "490",
+    "Intensity": "Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Diving & snorkeling",
+    "Original Code": "18200"
+  },
+  {
+    "Description": "Water walking (easy)",
+    "MET": "2.5",
+    "vo2_ml_kg_min": "8.8",
+    "kcal_per_hour_70kg": "175",
+    "Intensity": "Light",
+    "Category": "Water Sports",
+    "Subcategory": "Aqua fitness",
+    "Original Code": "18367"
+  },
+  {
+    "Description": "Water aerobics (resistance exercises)",
+    "MET": "3.8",
+    "vo2_ml_kg_min": "13.3",
+    "kcal_per_hour_70kg": "266",
+    "Intensity": "Moderate",
+    "Category": "Water Sports",
+    "Subcategory": "Aqua fitness",
+    "Original Code": "18356"
+  },
+  {
+    "Description": "Water walking (moderate)",
+    "MET": "4.8",
+    "vo2_ml_kg_min": "16.8",
+    "kcal_per_hour_70kg": "336",
+    "Intensity": "Moderate",
+    "Category": "Water Sports",
+    "Subcategory": "Aqua fitness",
+    "Original Code": "18368"
+  },
+  {
+    "Description": "Water aerobics (general)",
+    "MET": "5.5",
+    "vo2_ml_kg_min": "19.3",
+    "kcal_per_hour_70kg": "385",
+    "Intensity": "Moderate",
+    "Category": "Water Sports",
+    "Subcategory": "Aqua fitness",
+    "Original Code": "18355"
+  },
+  {
+    "Description": "Water walking (brisk)",
+    "MET": "6.8",
+    "vo2_ml_kg_min": "23.8",
+    "kcal_per_hour_70kg": "476",
+    "Intensity": "Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Aqua fitness",
+    "Original Code": "18369"
+  },
+  {
+    "Description": "Deep water running (moderate)",
+    "MET": "7.5",
+    "vo2_ml_kg_min": "26.3",
+    "kcal_per_hour_70kg": "525",
+    "Intensity": "Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Aqua fitness",
+    "Original Code": "18375"
+  },
+  {
+    "Description": "Water aerobics (high intensity)",
+    "MET": "7.5",
+    "vo2_ml_kg_min": "26.3",
+    "kcal_per_hour_70kg": "525",
+    "Intensity": "Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Aqua fitness",
+    "Original Code": "18358"
+  },
+  {
+    "Description": "Deep water running (fast)",
+    "MET": "8.5",
+    "vo2_ml_kg_min": "29.8",
+    "kcal_per_hour_70kg": "595",
+    "Intensity": "Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Aqua fitness",
+    "Original Code": "18376"
+  },
+  {
+    "Description": "Water volleyball",
+    "MET": "3",
+    "vo2_ml_kg_min": "10.5",
+    "kcal_per_hour_70kg": "210",
+    "Intensity": "Moderate",
+    "Category": "Water Sports",
+    "Subcategory": "Water sports",
+    "Original Code": "18365"
+  },
+  {
+    "Description": "Water polo",
+    "MET": "10",
+    "vo2_ml_kg_min": "35",
+    "kcal_per_hour_70kg": "700",
+    "Intensity": "Very Vigorous",
+    "Category": "Water Sports",
+    "Subcategory": "Water sports",
+    "Original Code": "18360"
+  },
+  {
+    "Description": "Rope jumping, slow pace (<100 skips/min)",
+    "MET": "8.3",
+    "vo2_ml_kg_min": "29.1",
+    "kcal_per_hour_70kg": "581",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Rope jumping",
+    "Original Code": "15552"
+  },
+  {
+    "Description": "Rope jumping, double under or more",
+    "MET": "10",
+    "vo2_ml_kg_min": "35",
+    "kcal_per_hour_70kg": "700",
+    "Intensity": "Very Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Rope jumping",
+    "Original Code": "15554"
+  },
+  {
+    "Description": "Rope jumping, moderate pace (100–120 skips/min)",
+    "MET": "11.8",
+    "vo2_ml_kg_min": "41.3",
+    "kcal_per_hour_70kg": "826",
+    "Intensity": "Very Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Rope jumping",
+    "Original Code": "15551"
+  },
+  {
+    "Description": "Rope jumping, fast pace (120–160 skips/min)",
+    "MET": "12.3",
+    "vo2_ml_kg_min": "43.1",
+    "kcal_per_hour_70kg": "861",
+    "Intensity": "Very Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Rope jumping",
+    "Original Code": "15550"
+  },
+  {
+    "Description": "Table tennis / ping pong",
+    "MET": "4",
+    "vo2_ml_kg_min": "14",
+    "kcal_per_hour_70kg": "280",
+    "Intensity": "Moderate",
+    "Category": "Sports",
+    "Subcategory": "Racquet sports",
+    "Original Code": "15660"
+  },
+  {
+    "Description": "Badminton (social / general)",
+    "MET": "5.5",
+    "vo2_ml_kg_min": "19.3",
+    "kcal_per_hour_70kg": "385",
+    "Intensity": "Moderate",
+    "Category": "Sports",
+    "Subcategory": "Racquet sports",
+    "Original Code": "15030"
+  },
+  {
+    "Description": "Racquetball (general)",
+    "MET": "7",
+    "vo2_ml_kg_min": "24.5",
+    "kcal_per_hour_70kg": "490",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Racquet sports",
+    "Original Code": "15530"
+  },
+  {
+    "Description": "Squash (general)",
+    "MET": "7.3",
+    "vo2_ml_kg_min": "25.6",
+    "kcal_per_hour_70kg": "511",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Racquet sports",
+    "Original Code": "15652"
+  },
+  {
+    "Description": "Badminton (match play / competitive)",
+    "MET": "9",
+    "vo2_ml_kg_min": "31.5",
+    "kcal_per_hour_70kg": "630",
+    "Intensity": "Very Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Racquet sports",
+    "Original Code": "15025"
+  },
+  {
+    "Description": "Racquetball (competitive)",
+    "MET": "10",
+    "vo2_ml_kg_min": "35",
+    "kcal_per_hour_70kg": "700",
+    "Intensity": "Very Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Racquet sports",
+    "Original Code": "15520"
+  },
+  {
+    "Description": "Squash (competitive)",
+    "MET": "12",
+    "vo2_ml_kg_min": "42",
+    "kcal_per_hour_70kg": "840",
+    "Intensity": "Very Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Racquet sports",
+    "Original Code": "15650"
+  },
+  {
+    "Description": "Tennis (doubles)",
+    "MET": "4.5",
+    "vo2_ml_kg_min": "15.8",
+    "kcal_per_hour_70kg": "315",
+    "Intensity": "Moderate",
+    "Category": "Sports",
+    "Subcategory": "Tennis",
+    "Original Code": "15685"
+  },
+  {
+    "Description": "Tennis (general / moderate)",
+    "MET": "6.8",
+    "vo2_ml_kg_min": "23.8",
+    "kcal_per_hour_70kg": "476",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Tennis",
+    "Original Code": "15675"
+  },
+  {
+    "Description": "Tennis (singles)",
+    "MET": "8",
+    "vo2_ml_kg_min": "28",
+    "kcal_per_hour_70kg": "560",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Tennis",
+    "Original Code": "15690"
+  },
+  {
+    "Description": "Basketball (shooting practice)",
+    "MET": "5",
+    "vo2_ml_kg_min": "17.5",
+    "kcal_per_hour_70kg": "350",
+    "Intensity": "Moderate",
+    "Category": "Sports",
+    "Subcategory": "Basketball",
+    "Original Code": "15070"
+  },
+  {
+    "Description": "Basketball (general)",
+    "MET": "7.5",
+    "vo2_ml_kg_min": "26.3",
+    "kcal_per_hour_70kg": "525",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Basketball",
+    "Original Code": "15055"
+  },
+  {
+    "Description": "Basketball (game)",
+    "MET": "8",
+    "vo2_ml_kg_min": "28",
+    "kcal_per_hour_70kg": "560",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Basketball",
+    "Original Code": "15040"
+  },
+  {
+    "Description": "Soccer (casual / general)",
+    "MET": "7",
+    "vo2_ml_kg_min": "24.5",
+    "kcal_per_hour_70kg": "490",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Soccer",
+    "Original Code": "15610"
+  },
+  {
+    "Description": "Soccer (competitive)",
+    "MET": "9.5",
+    "vo2_ml_kg_min": "33.3",
+    "kcal_per_hour_70kg": "665",
+    "Intensity": "Very Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Soccer",
+    "Original Code": "15605"
+  },
+  {
+    "Description": "Flag / touch football (light)",
+    "MET": "4",
+    "vo2_ml_kg_min": "14",
+    "kcal_per_hour_70kg": "280",
+    "Intensity": "Moderate",
+    "Category": "Sports",
+    "Subcategory": "Football",
+    "Original Code": "15232"
+  },
+  {
+    "Description": "Flag / touch football (general)",
+    "MET": "8",
+    "vo2_ml_kg_min": "28",
+    "kcal_per_hour_70kg": "560",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Football",
+    "Original Code": "15230"
+  },
+  {
+    "Description": "Field hockey",
+    "MET": "7.8",
+    "vo2_ml_kg_min": "27.3",
+    "kcal_per_hour_70kg": "546",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Hockey",
+    "Original Code": "15350"
+  },
+  {
+    "Description": "Ice hockey (general)",
+    "MET": "8",
+    "vo2_ml_kg_min": "28",
+    "kcal_per_hour_70kg": "560",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Hockey",
+    "Original Code": "15360"
+  },
+  {
+    "Description": "Ice hockey (competitive)",
+    "MET": "10",
+    "vo2_ml_kg_min": "35",
+    "kcal_per_hour_70kg": "700",
+    "Intensity": "Very Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Hockey",
+    "Original Code": "15362"
+  },
+  {
+    "Description": "Kickboxing",
+    "MET": "7.3",
+    "vo2_ml_kg_min": "25.6",
+    "kcal_per_hour_70kg": "511",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Martial arts",
+    "Original Code": "15457"
+  },
+  {
+    "Description": "Martial arts (moderate–vigorous practice)",
+    "MET": "10.3",
+    "vo2_ml_kg_min": "36.1",
+    "kcal_per_hour_70kg": "721",
+    "Intensity": "Very Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Martial arts",
+    "Original Code": "15430"
+  },
+  {
+    "Description": "Judo",
+    "MET": "11.3",
+    "vo2_ml_kg_min": "39.6",
+    "kcal_per_hour_70kg": "791",
+    "Intensity": "Very Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Martial arts",
+    "Original Code": "15433"
+  },
+  {
+    "Description": "Taekwondo (combat simulation)",
+    "MET": "14.3",
+    "vo2_ml_kg_min": "50.1",
+    "kcal_per_hour_70kg": "1001",
+    "Intensity": "Very Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Martial arts",
+    "Original Code": "15432"
+  },
+  {
+    "Description": "Boxing (sparring)",
+    "MET": "7.8",
+    "vo2_ml_kg_min": "27.3",
+    "kcal_per_hour_70kg": "546",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Boxing",
+    "Original Code": "15120"
+  },
+  {
+    "Description": "Boxing bag (hard pace)",
+    "MET": "8.5",
+    "vo2_ml_kg_min": "29.8",
+    "kcal_per_hour_70kg": "595",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Boxing",
+    "Original Code": "15115"
+  },
+  {
+    "Description": "Boxing (in ring / general)",
+    "MET": "12.3",
+    "vo2_ml_kg_min": "43.1",
+    "kcal_per_hour_70kg": "861",
+    "Intensity": "Very Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Boxing",
+    "Original Code": "15100"
+  },
+  {
+    "Description": "Controlled descent using a rope.",
+    "MET": "5",
+    "vo2_ml_kg_min": "17.5",
+    "kcal_per_hour_70kg": "350",
+    "Intensity": "Moderate",
+    "Category": "Sports",
+    "Subcategory": "Rock climbing",
+    "Original Code": "15540"
+  },
+  {
+    "Description": "Easier climbing or traversing at a steady pace.",
+    "MET": "5.8",
+    "vo2_ml_kg_min": "20.3",
+    "kcal_per_hour_70kg": "406",
+    "Intensity": "Moderate",
+    "Category": "Sports",
+    "Subcategory": "Rock climbing",
+    "Original Code": "15537"
+  },
+  {
+    "Description": "Steep or hard climbing with sustained effort.",
+    "MET": "7.3",
+    "vo2_ml_kg_min": "25.6",
+    "kcal_per_hour_70kg": "511",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Rock climbing",
+    "Original Code": "15535"
+  },
+  {
+    "Description": "General rock or mountain climbing",
+    "MET": "8",
+    "vo2_ml_kg_min": "28",
+    "kcal_per_hour_70kg": "560",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Rock climbing",
+    "Original Code": "15533"
+  },
+  {
+    "Description": "Short, powerful bouldering without ropes.",
+    "MET": "8.8",
+    "vo2_ml_kg_min": "30.8",
+    "kcal_per_hour_70kg": "616",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Rock climbing",
+    "Original Code": "15534"
+  },
+  {
+    "Description": "Fast, explosive climbing on a fixed route.",
+    "MET": "10.5",
+    "vo2_ml_kg_min": "36.8",
+    "kcal_per_hour_70kg": "735",
+    "Intensity": "Very Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Rock climbing",
+    "Original Code": "15536"
+  },
+  {
+    "Description": "Faster, harder climbing on a treadwall.",
+    "MET": "10.5",
+    "vo2_ml_kg_min": "36.8",
+    "kcal_per_hour_70kg": "735",
+    "Intensity": "Very Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Rock climbing",
+    "Original Code": "15539"
+  },
+  {
+    "Description": "Moderate-speed climbing on a treadwall.",
+    "MET": "10.5",
+    "vo2_ml_kg_min": "36.8",
+    "kcal_per_hour_70kg": "735",
+    "Intensity": "Very Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Rock climbing",
+    "Original Code": "15538"
+  },
+  {
+    "Description": "Skateboarding (general)",
+    "MET": "5",
+    "vo2_ml_kg_min": "17.5",
+    "kcal_per_hour_70kg": "350",
+    "Intensity": "Moderate",
+    "Category": "Sports",
+    "Subcategory": "Skating & boards",
+    "Original Code": "15580"
+  },
+  {
+    "Description": "Rollerblading (recreational pace)",
+    "MET": "7.5",
+    "vo2_ml_kg_min": "26.3",
+    "kcal_per_hour_70kg": "525",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Skating & boards",
+    "Original Code": "15591"
+  },
+  {
+    "Description": "Rollerblading (moderate pace)",
+    "MET": "9.8",
+    "vo2_ml_kg_min": "34.3",
+    "kcal_per_hour_70kg": "686",
+    "Intensity": "Very Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Skating & boards",
+    "Original Code": "15592"
+  },
+  {
+    "Description": "Volleyball (recreational)",
+    "MET": "3",
+    "vo2_ml_kg_min": "10.5",
+    "kcal_per_hour_70kg": "210",
+    "Intensity": "Moderate",
+    "Category": "Sports",
+    "Subcategory": "Volleyball",
+    "Original Code": "15720"
+  },
+  {
+    "Description": "Volleyball (competitive, indoor)",
+    "MET": "6",
+    "vo2_ml_kg_min": "21",
+    "kcal_per_hour_70kg": "420",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Volleyball",
+    "Original Code": "15711"
+  },
+  {
+    "Description": "Volleyball (beach)",
+    "MET": "8",
+    "vo2_ml_kg_min": "28",
+    "kcal_per_hour_70kg": "560",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Volleyball",
+    "Original Code": "15725"
+  },
+  {
+    "Description": "Track & field (throws: shot/discus/hammer)",
+    "MET": "4",
+    "vo2_ml_kg_min": "14",
+    "kcal_per_hour_70kg": "280",
+    "Intensity": "Moderate",
+    "Category": "Sports",
+    "Subcategory": "Track & field",
+    "Original Code": "15732"
+  },
+  {
+    "Description": "Track & field (jumps: long/high/pole vault)",
+    "MET": "6",
+    "vo2_ml_kg_min": "21",
+    "kcal_per_hour_70kg": "420",
+    "Intensity": "Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Track & field",
+    "Original Code": "15733"
+  },
+  {
+    "Description": "Track & field (steeplechase / hurdles)",
+    "MET": "10",
+    "vo2_ml_kg_min": "35",
+    "kcal_per_hour_70kg": "700",
+    "Intensity": "Very Vigorous",
+    "Category": "Sports",
+    "Subcategory": "Track & field",
+    "Original Code": "15734"
+  },
+  {
+    "Description": "Golf (power cart)",
+    "MET": "3.5",
+    "vo2_ml_kg_min": "12.3",
+    "kcal_per_hour_70kg": "245",
+    "Intensity": "Moderate",
+    "Category": "Sports",
+    "Subcategory": "Golf",
+    "Original Code": "15290"
+  },
+  {
+    "Description": "Golf (walking, carrying clubs)",
+    "MET": "4.3",
+    "vo2_ml_kg_min": "15",
+    "kcal_per_hour_70kg": "301",
+    "Intensity": "Moderate",
+    "Category": "Sports",
+    "Subcategory": "Golf",
+    "Original Code": "15265"
+  },
+  {
+    "Description": "Golf (walking, pulling clubs)",
+    "MET": "4.5",
+    "vo2_ml_kg_min": "15.8",
+    "kcal_per_hour_70kg": "315",
+    "Intensity": "Moderate",
+    "Category": "Sports",
+    "Subcategory": "Golf",
+    "Original Code": "15285"
+  },
+  {
+    "Description": "Billiards / pool",
+    "MET": "2.5",
+    "vo2_ml_kg_min": "8.8",
+    "kcal_per_hour_70kg": "175",
+    "Intensity": "Light",
+    "Category": "Sports",
+    "Subcategory": "Leisure",
+    "Original Code": "15080"
+  },
+  {
+    "Description": "Darts",
+    "MET": "2.5",
+    "vo2_ml_kg_min": "8.8",
+    "kcal_per_hour_70kg": "175",
+    "Intensity": "Light",
+    "Category": "Sports",
+    "Subcategory": "Leisure",
+    "Original Code": "15180"
+  },
+  {
+    "Description": "Bowling (bowling alley)",
+    "MET": "3.8",
+    "vo2_ml_kg_min": "13.3",
+    "kcal_per_hour_70kg": "266",
+    "Intensity": "Moderate",
+    "Category": "Sports",
+    "Subcategory": "Leisure",
+    "Original Code": "15092"
+  },
+  {
+    "Description": "Ice skating (easy pace, ≤14.5 km/h / ≤9 mph)",
+    "MET": "5.5",
+    "vo2_ml_kg_min": "19.3",
+    "kcal_per_hour_70kg": "385",
+    "Intensity": "Moderate",
+    "Category": "Winter",
+    "Subcategory": "Ice skating",
+    "Original Code": "19020"
+  },
+  {
+    "Description": "Ice skating (general)",
+    "MET": "7",
+    "vo2_ml_kg_min": "24.5",
+    "kcal_per_hour_70kg": "490",
+    "Intensity": "Vigorous",
+    "Category": "Winter",
+    "Subcategory": "Ice skating",
+    "Original Code": "19030"
+  },
+  {
+    "Description": "Ice skating (fast, >14.5 km/h / >9 mph, non-competitive)",
+    "MET": "9",
+    "vo2_ml_kg_min": "31.5",
+    "kcal_per_hour_70kg": "630",
+    "Intensity": "Very Vigorous",
+    "Category": "Winter",
+    "Subcategory": "Ice skating",
+    "Original Code": "19040"
+  },
+  {
+    "Description": "Speed skating (competitive)",
+    "MET": "13.8",
+    "vo2_ml_kg_min": "48.3",
+    "kcal_per_hour_70kg": "966",
+    "Intensity": "Very Vigorous",
+    "Category": "Winter",
+    "Subcategory": "Ice skating",
+    "Original Code": "19050"
+  },
+  {
+    "Description": "Ice dancing (vigorous)",
+    "MET": "14",
+    "vo2_ml_kg_min": "49",
+    "kcal_per_hour_70kg": "980",
+    "Intensity": "Very Vigorous",
+    "Category": "Winter",
+    "Subcategory": "Ice skating",
+    "Original Code": "19018"
+  },
+  {
+    "Description": "Cross-country skiing (easy / ski walking)",
+    "MET": "6.8",
+    "vo2_ml_kg_min": "23.8",
+    "kcal_per_hour_70kg": "476",
+    "Intensity": "Vigorous",
+    "Category": "Winter",
+    "Subcategory": "Cross-country skiing",
+    "Original Code": "19080"
+  },
+  {
+    "Description": "Cross-country skiing (moderate pace)",
+    "MET": "8.5",
+    "vo2_ml_kg_min": "29.8",
+    "kcal_per_hour_70kg": "595",
+    "Intensity": "Vigorous",
+    "Category": "Winter",
+    "Subcategory": "Cross-country skiing",
+    "Original Code": "19090"
+  },
+  {
+    "Description": "Cross-country skiing (high-intensity training)",
+    "MET": "9.5",
+    "vo2_ml_kg_min": "33.3",
+    "kcal_per_hour_70kg": "665",
+    "Intensity": "Very Vigorous",
+    "Category": "Winter",
+    "Subcategory": "Cross-country skiing",
+    "Original Code": "19115"
+  },
+  {
+    "Description": "Cross-country skiing (vigorous pace)",
+    "MET": "11.3",
+    "vo2_ml_kg_min": "39.6",
+    "kcal_per_hour_70kg": "791",
+    "Intensity": "Very Vigorous",
+    "Category": "Winter",
+    "Subcategory": "Cross-country skiing",
+    "Original Code": "19100"
+  },
+  {
+    "Description": "Cross-country skiing (skating technique)",
+    "MET": "13.3",
+    "vo2_ml_kg_min": "46.6",
+    "kcal_per_hour_70kg": "931",
+    "Intensity": "Very Vigorous",
+    "Category": "Winter",
+    "Subcategory": "Cross-country skiing",
+    "Original Code": "19135"
+  },
+  {
+    "Description": "Cross-country skiing (uphill / hard snow, very hard)",
+    "MET": "15.5",
+    "vo2_ml_kg_min": "54.3",
+    "kcal_per_hour_70kg": "1085",
+    "Intensity": "Very Vigorous",
+    "Category": "Winter",
+    "Subcategory": "Cross-country skiing",
+    "Original Code": "19130"
+  },
+  {
+    "Description": "Downhill skiing / snowboarding (light, active time only)",
+    "MET": "4.3",
+    "vo2_ml_kg_min": "15",
+    "kcal_per_hour_70kg": "301",
+    "Intensity": "Moderate",
+    "Category": "Winter",
+    "Subcategory": "Downhill skiing & snowboarding",
+    "Original Code": "19150"
+  },
+  {
+    "Description": "Downhill skiing / snowboarding (moderate, active time only)",
+    "MET": "6.3",
+    "vo2_ml_kg_min": "22.1",
+    "kcal_per_hour_70kg": "441",
+    "Intensity": "Vigorous",
+    "Category": "Winter",
+    "Subcategory": "Downhill skiing & snowboarding",
+    "Original Code": "19160"
+  },
+  {
+    "Description": "Snowboarding (recreational, mountain pace)",
+    "MET": "7.5",
+    "vo2_ml_kg_min": "26.3",
+    "kcal_per_hour_70kg": "525",
+    "Intensity": "Vigorous",
+    "Category": "Winter",
+    "Subcategory": "Downhill skiing & snowboarding",
+    "Original Code": "19201"
+  },
+  {
+    "Description": "Downhill skiing / snowboarding (vigorous, active time only)",
+    "MET": "8",
+    "vo2_ml_kg_min": "28",
+    "kcal_per_hour_70kg": "560",
+    "Intensity": "Vigorous",
+    "Category": "Winter",
+    "Subcategory": "Downhill skiing & snowboarding",
+    "Original Code": "19170"
+  },
+  {
+    "Description": "Skiing (slalom)",
+    "MET": "9.3",
+    "vo2_ml_kg_min": "32.6",
+    "kcal_per_hour_70kg": "651",
+    "Intensity": "Very Vigorous",
+    "Category": "Winter",
+    "Subcategory": "Downhill skiing & snowboarding",
+    "Original Code": "19146"
+  },
+  {
+    "Description": "Snowshoeing (moderate)",
+    "MET": "5.3",
+    "vo2_ml_kg_min": "18.6",
+    "kcal_per_hour_70kg": "371",
+    "Intensity": "Moderate",
+    "Category": "Winter",
+    "Subcategory": "Snowshoeing",
+    "Original Code": "19190"
+  },
+  {
+    "Description": "Snowshoeing (vigorous)",
+    "MET": "10",
+    "vo2_ml_kg_min": "35",
+    "kcal_per_hour_70kg": "700",
+    "Intensity": "Very Vigorous",
+    "Category": "Winter",
+    "Subcategory": "Snowshoeing",
+    "Original Code": "19192"
+  },
+  {
+    "Description": "Sledding / tobogganing / luge (general)",
+    "MET": "7",
+    "vo2_ml_kg_min": "24.5",
+    "kcal_per_hour_70kg": "490",
+    "Intensity": "Vigorous",
+    "Category": "Winter",
+    "Subcategory": "Sledding",
+    "Original Code": "19180"
+  },
+  {
+    "Description": "Using a snow blower (walking & pushing)",
+    "MET": "2.5",
+    "vo2_ml_kg_min": "8.8",
+    "kcal_per_hour_70kg": "175",
+    "Intensity": "Light",
+    "Category": "Winter",
+    "Subcategory": "Winter chores",
+    "Original Code": "19260"
+  },
+  {
+    "Description": "Snow shoveling (moderate)",
+    "MET": "5.3",
+    "vo2_ml_kg_min": "18.6",
+    "kcal_per_hour_70kg": "371",
+    "Intensity": "Moderate",
+    "Category": "Winter",
+    "Subcategory": "Winter chores",
+    "Original Code": "19252"
+  },
+  {
+    "Description": "Snow shoveling (vigorous)",
+    "MET": "7.5",
+    "vo2_ml_kg_min": "26.3",
+    "kcal_per_hour_70kg": "525",
+    "Intensity": "Vigorous",
+    "Category": "Winter",
+    "Subcategory": "Winter chores",
+    "Original Code": "19254"
+  }
+]
