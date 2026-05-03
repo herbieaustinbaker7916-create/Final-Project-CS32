@@ -64,11 +64,14 @@ def main():
             helpers.add_workout(calor)
         if action.lower() == "check daily macros":
             #prints the current daily macros so far
+            #!!!!!!!!!!!!!!   energy unit problem from video fixed here   !!!!!!!!!!!!!   PLEASE READ   !!!!!!!!!!!!!!!
             for m in helpers.macro_values:
-                if m != "sodium":
-                    print(f"You have consumed {helpers.Daily_Macros[m]} grams of {m}")
-                else:
+                if m == "sodium":
                     print(f"You have consumed {helpers.Daily_Macros[m]} milligrams of {m}")
+                elif m == "energy":
+                    print(f"You have consumed {helpers.Daily_Macros[m]} KCals of {m}")
+                else:
+                    print(f"You have consumed {helpers.Daily_Macros[m]} grams of {m}")
 
         if action.lower() == "check all time macros":
             with open('daily_data.json', 'r') as file:
